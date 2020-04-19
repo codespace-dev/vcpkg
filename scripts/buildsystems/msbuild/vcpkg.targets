@@ -69,6 +69,7 @@
     </Link>
     <ClCompile>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(VcpkgRoot)include</AdditionalIncludeDirectories>
+	  <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(VcpkgRoot)include/bullet</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(VcpkgRoot)include</AdditionalIncludeDirectories>
