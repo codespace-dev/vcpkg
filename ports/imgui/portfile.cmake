@@ -2,10 +2,10 @@ vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO ocornut/imgui
-    REF v1.78
-    SHA512 2410df5b39d5ca14ea7181ef4f3b501ad8879e10895ed540f079f213dcc528b50e57cc16fce6f50a67e8a7be00b03c5833cabfd5db4ba210cafce6d95da389c6
-    HEAD_REF master
+    REPO codespace-dev/imgui
+    REF 4da92b89ed5861d4630d4ed2c3c702ad962b2202
+    SHA512 a178942c68e6b7d4d8bf96941bd408047239908ee068f4affd1bc882eae0f1fb2b56cf02a8033d976f9e40f26695c28983b4b80abc89443539f4e5083f33f21c
+    HEAD_REF crane/release-202011.01
 )
 
 file(COPY ${CMAKE_CURRENT_LIST_DIR}/CMakeLists.txt DESTINATION ${SOURCE_PATH})
